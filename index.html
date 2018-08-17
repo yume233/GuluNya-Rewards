@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>咕噜蛋池</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+  <script type="text/javascript" src="./js/jquery-1.8.0.min.js"></script>
+  <script type="text/javascript" src="./js/list.js"></script>
+</head>
+
+<body>
+  <div id="mainpage">
+    <a href="https://www.gulucat.org/"><input type="button" class="gulucat" value=""></a>
+    <div id="image">
+      <input type="button" class="staff" value="" onclick="selectList();document.getElementById('count').innerHTML++;document.getElementById('count2').innerHTML++;">
+      <textarea class="list" rows="16" cols="40" readonly="readonly" id="getlist2"></textarea>
+      <div class="tatistics" style="margin-top:10px"> 总计抽取
+        <span id="count">0</span> 次 ,
+        <span class="sv">S
+          <span id="getS">0</span>
+        </span>
+        <span class="sa">A
+          <span id="getA">0</span>
+        </span>
+        <span class="sb">B
+          <span id="getB">0</span>
+        </span>
+        <span class="sc">C
+          <span id="getC">0</span>
+        </span>
+        <span class="sd">D
+          <span id="getD">0</span>
+        </span>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

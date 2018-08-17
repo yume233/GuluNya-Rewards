@@ -1,0 +1,82 @@
+@import url("https://cdn.jsdelivr.net/gh/picturepan2/spectre@0.5.3/dist/spectre.min.css");
+@import url("https://fonts.googleapis.com/css?family=Material+Icons|Titillium+Web");
+html {
+  min-height: 100%;
+}
+body {
+  background-color: #333;
+  background-repeat: no-repeat;
+  background-position: right 10vw bottom 0%;
+  background-size: auto 80vmin;
+  font-family: "Titillium Web", sans-serif;
+}
+#mainpage {
+  width: 95%;
+  height: 35%;
+  margin-left: 50px;
+  margin-top: 32px;
+}
+#image {
+  background-image: url(https://www.gulucat.org/wp-content/uploads/2018/08/nostaff.webp);
+  background-size: cover;
+  width: 1820px;
+  height: 900px;
+  border-radius: 8px;
+}
+.staff {
+  background: url(https://i.loli.net/2018/08/09/5b6c436195be4.png);
+  background-size: cover;
+  width: 350px;
+  height: 450px;
+  border: none;
+  outline: none;
+  cursor: hand;
+  position: relative;
+  top: 450px;
+  left: 162px;
+}
+.staff:hover {
+  background: url(https://i.loli.net/2018/08/09/5b6c4361ed6a7.png);
+  background-size: cover;
+  width: 370px;
+  height: 450px;
+  border: none;
+  outline: none;
+  cursor: hand;
+  position: relative;
+  top: 450px;
+  left: 162px;
+}
+.list {
+  margin-left: 1076px;
+  margin-top: -348px;
+  font-size: 30px;
+  float: none;
+}
+textarea {
+  border: 0;
+  background-color: transparent;
+  color: #6c182b;
+  height: auto;
+  resize: none;
+}
+.tatistics {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 2vw;
+  color: #6c182b;
+  margin-left: 63%;
+  border: #6c182b;
+  max-width: 600px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.gulucat {
+  background: url(https://i.loli.net/2018/08/16/5b754dde1b1f0.png);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border: none;
+  outline: none;
+  float:left;
+}
