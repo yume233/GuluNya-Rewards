@@ -133,8 +133,8 @@ function selectList() {
       { name: "猫薄荷（5个）" }
     ];
   }
-
+  
   var s = parseInt(Math.random() * list.length);
-  $("#getlist").prepend("<p class=" + rankcss + ">" + list[s].name + "</p>");
-  $("#getlist2").prepend(rankcss + "：" + list[s].name + "&#13;&#10;");
+  var newPrize=rankcss+':'+ list[s].name +'&#13;&#10;';
+  document.getElementById('getlist').insertAdjacentHTML('afterBegin', newPrize);
 }
